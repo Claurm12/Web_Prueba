@@ -59,7 +59,8 @@
   <div class="container">
     <div class="hero">
       <h1>Railway to Hell</h1>
-      <p class="lead">Un metroidvania infernal de acción, exploración y redención 🔥</p>
+      <p class="lead">Railway to Hell is a Metroidvania action and exploration video game set in a hellish version of a railway system. The player controls Nadia, a girl from a gang trapped in this hell, seeking redemption and the chance to escape with her deceased sister. Through intense melee combat, distance combat, progressive skill upgrades and exploration of the train lines, you must challenge the demonic lords who control this hellish system.
+</p>
     </div>
 
     <div class="section">
@@ -71,27 +72,27 @@
     <div class="section">
       <h2>Narrative</h2>
       <p>
-        Nadia se encuentra atrapada en un sistema ferroviario infernal donde los señores demoníacos dominan cada línea. Guiada por los recuerdos de su hermana fallecida, deberá enfrentarse a ellos y descubrir verdades oscuras sobre su pasado… y sobre el mismísimo infierno.
+        Nadia finds herself in a hellish railway system where demonic lords control different lines. Guided by what she believes are her sister's memories, she must battle through the system, uncovering dark truths about her past and the nature of this underworld.
       </p>
     </div>
 
     <div class="section">
-      <h2>Objetivo del juego</h2>
+      <h2>Game Objective</h2>
       <ul>
-        <li>Explorar túneles y estaciones interconectadas</li>
-        <li>Derrotar jefes demoníacos para obtener nuevas habilidades</li>
-        <li>Resolver puzles ambientales</li>
-        <li>Descubrir la verdad sobre tu hermana y este mundo infernal</li>
+        <li>Explore interconnected tunnels and stations</li>
+        <li>Defeat demonic bosses to gain new abilities</li>
+        <li>Solve environmental puzzles</li>
+        <li>Uncover the truth about your sister and this hellish world</li>
       </ul>
     </div>
 
     <div class="section">
-      <h2>Estilo artístico e inspiraciones</h2>
-      <ul>
-        <li>Pixel-art con estética urbana y sobrenatural</li>
-        <li>Inspirado en juegos Metroidvania clásicos</li>
-        <li>Influencias del graffiti underground y mitología gótica</li>
-        <li>Toques arquitectónicos inspirados en Gaudí y Barcelona</li>
+      <h2>Art Style & Inspirations</h2>
+      <ul> Our pixel-art aesthetic combines gritty urban decay with supernatural elements, inspired by:
+        <li>Classic Metroidvania games</li>
+        <li>Underground graffiti culture</li>
+        <li>Gothic and demonic mythology</li>
+        <li>Barcelona's unique architecture (like Gaudí's mosaics)</li>
       </ul>
     </div>
 
