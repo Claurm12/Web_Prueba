@@ -1,43 +1,64 @@
-# RAILWAY TO HELL
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Página Bonita</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #f7f9fc;
+      padding-top: 60px;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #6c63ff;
+      color: white;
+      border-radius: 15px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+      background: #eee;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
 
-Railway to Hell is a Metroidvania action and exploration video game set in a hellish version of a railway system. The player controls Nadia, a girl from a gang trapped in this hell, seeking redemption and the chance to escape with her deceased sister. Through intense melee combat, distance combat, progressive skill upgrades and exploration of the train lines, you must challenge the demonic lords who control this hellish system.
+  <div class="container">
+    <div class="hero">
+      <h1>Bienvenido a mi web</h1>
+      <p>Esta es una página hecha con amor y estilo 💖</p>
+    </div>
 
-## Trailer
-[Embed YouTube trailer here]
+    <div class="mt-5">
+      <h2>Galería de imágenes</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="assets/imagen1.jpg" class="img-fluid rounded shadow" alt="Imagen 1">
+        </div>
+        <div class="col-md-4">
+          <img src="assets/imagen2.jpg" class="img-fluid rounded shadow" alt="Imagen 2">
+        </div>
+        <div class="col-md-4">
+          <img src="assets/imagen3.jpg" class="img-fluid rounded shadow" alt="Imagen 3">
+        </div>
+      </div>
+    </div>
 
-Death is not the last stop
+    <footer class="mt-5">
+      <p>© 2025 Mi Sitio Web</p>
+    </footer>
+  </div>
 
-## Railway To Hell
-
-Railway to Hell is a Metroidvania action-exploration game set in a demonic version of a subway system. Players control Nadia, a girl from a gang trapped in this underworld, seeking redemption and a way to escape with her deceased sister.
-
-### Narrative
-Nadia finds herself in a hellish railway system where demonic lords control different lines. Guided by what she believes are her sister's memories, she must battle through the system, uncovering dark truths about her past and the nature of this underworld.
-
-### Game Objective
-- Explore interconnected tunnels and stations
-- Defeat demonic bosses to gain new abilities
-- Solve environmental puzzles
-- Uncover the truth about your sister and this hellish world
-
-### Art Style & Inspirations
-Our pixel-art aesthetic combines gritty urban decay with supernatural elements, inspired by:
-- Classic Metroidvania games
-- Underground graffiti culture
-- Gothic and demonic mythology
-- Barcelona's unique architecture (like Gaudí's mosaics)
-
-### *Controller controls:*
-- Left Stick move left/right
-- X / A jump
-- R1 / RB Dash
-- Square / X Melee Atack
-- R2 / RT Use Whip
-- L2 / LT Throw Balls
-- Circle / B Use Key (Doors and Interactions), close dialogues and use checkpoints
-- Triangle / Y Map
-
-- Sanchez Carraro Felipe
-- Sanjose Aragon Pablo
-- Sarrias Basurte Martina
-- Vida Bosch Javier
+</body>
+</html>
