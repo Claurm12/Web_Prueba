@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background: #00ff00;
+      background: #ffffff;
       padding-top: 60px;
     }
     .hero {
@@ -37,7 +37,7 @@
   <div class="container">
     <div class="hero">
       <h1>Bienvenido a mi web</h1>
-      <p>Esta es una página hecha con amor y estilo 💖</p>
+      <p>Pagina de prueba</p>
     </div>
 
     <div class="mt-5">
