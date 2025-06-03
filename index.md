@@ -7,17 +7,23 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background: #ffffff;
-      padding-top: 60px;
-    }
     .hero {
-    text-align: center;
+  text-align: center;
   padding: 60px 20px;
   background-image: url('assets/fondo.jpg');
   background-size: cover;        /* hace que cubra todo el bloque */
   background-position: center;   /* centra la imagen */
   color: white;
   border-radius: 15px;
+}
+
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #ff0000;
+      color: white;
+      border-radius: 15px;
     }
     .hero h1 {
       font-size: 3rem;
