@@ -54,12 +54,11 @@
     .gallery img {
       margin-bottom: 20px;
     }
-.titulo-demonio {
-  color: #ff4444;
-  text-shadow: 0 0 10px #ff1e56, 0 0 20px #ff1e56;
-  font-size: 3rem;
-  font-weight: bold;
-  letter-spacing: 2px;
+.titulo-imagen {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 10px #ff1e56);
 }
 
   </style>
@@ -68,7 +67,7 @@
 
   <div class="container">
     <div class="hero">
-     <h1 class="titulo-demonio">Railway to Hell</h1>
+     <img src="assets/titulo.png" alt="Railway to Hell" class="img-fluid titulo-imagen">
       <p class="lead">Railway to Hell is a Metroidvania action and exploration video game set in a hellish version of a railway system. The player controls Nadia, a girl from a gang trapped in this hell, seeking redemption and the chance to escape with her deceased sister. Through intense melee combat, distance combat, progressive skill upgrades and exploration of the train lines, you must challenge the demonic lords who control this hellish system.
 </p>
     </div>
