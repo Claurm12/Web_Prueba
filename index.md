@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Railway to Hell | A Hellish Metroidvania Adventure</title>
+  <title>Railway to Hell | LastStop Studios</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --hell-red: #ff1e1e;
@@ -22,104 +22,92 @@
         linear-gradient(rgba(255, 30, 30, 0.05) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255, 30, 30, 0.05) 1px, transparent 1px);
       background-size: 40px 40px;
-      padding-top: 60px;
-      font-family: 'Kanit', sans-serif;
+      padding-top: 0;
+      font-family: 'Orbitron', sans-serif;
       color: #e0e0e0;
       min-height: 100vh;
     }
     
-    h1, h2, h3, h4 {
-      font-family: 'Orbitron', sans-serif;
-      text-transform: uppercase;
-      letter-spacing: 1px;
+    .studio-header {
+      font-family: 'Press Start 2P', cursive;
+      color: var(--neon-yellow);
+      text-shadow: 0 0 10px var(--hell-red);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 1.2rem;
+      border-bottom: 3px solid var(--hell-red);
+    }
+    
+    .game-title {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 3rem;
+      color: white;
+      text-shadow: 0 0 10px var(--hell-red);
+      text-align: center;
+      margin: 30px 0;
+    }
+    
+    .tagline {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1.2rem;
+      color: var(--neon-yellow);
+      text-align: center;
+      margin-bottom: 40px;
     }
     
     .container {
       max-width: 1200px;
+      padding-bottom: 60px;
     }
     
-    .hero {
-      text-align: center;
-      padding: 60px 20px;
-      background: 
-        linear-gradient(135deg, rgba(138, 3, 3, 0.8) 0%, rgba(10, 10, 10, 0.9) 70%),
-        url('assets/train-texture.jpg');
-      background-size: cover;
-      color: white;
-      border-radius: 15px;
-      border: 2px solid var(--hell-red);
-      box-shadow: 0 0 30px rgba(255, 30, 30, 0.4);
+    .section {
+      background-color: rgba(34, 34, 34, 0.9);
+      padding: 30px;
       margin-bottom: 40px;
+      border-radius: 5px;
+      border-left: 6px solid var(--hell-red);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.5);
       position: relative;
       overflow: hidden;
     }
     
-    .hero::before {
+    .section::before {
       content: "";
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
-      height: 5px;
+      height: 3px;
       background: linear-gradient(90deg, 
+        transparent, 
         var(--hell-red), 
         var(--hell-orange), 
-        var(--neon-yellow),
-        var(--hell-orange),
-        var(--hell-red));
-    }
-    
-    .titulo-imagen {
-      max-width: 80%;
-      height: auto;
-      margin-bottom: 30px;
-      filter: drop-shadow(0 0 15px #ff1e56);
-      transition: transform 0.3s ease;
-    }
-    
-    .titulo-imagen:hover {
-      transform: scale(1.03);
-    }
-    
-    .lead {
-      font-size: 1.25rem;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: 0 auto;
-      text-shadow: 0 0 10px rgba(0,0,0,0.8);
-    }
-    
-    .section {
-      background-color: rgba(34, 34, 34, 0.8);
-      padding: 30px;
-      margin-bottom: 40px;
-      border-radius: 10px;
-      border-left: 4px solid var(--hell-red);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    
-    .section:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 25px rgba(255, 30, 30, 0.2);
+        var(--hell-red), 
+        transparent);
     }
     
     h2 {
+      font-family: 'Press Start 2P', cursive;
       color: var(--hell-orange);
-      border-bottom: 2px solid var(--hell-red);
-      padding-bottom: 10px;
-      margin-bottom: 20px;
+      font-size: 1.5rem;
+      margin-bottom: 25px;
       position: relative;
+      padding-bottom: 10px;
     }
     
     h2::after {
       content: "";
       position: absolute;
-      bottom: -2px;
+      bottom: 0;
       left: 0;
       width: 100px;
-      height: 2px;
+      height: 3px;
       background: var(--neon-yellow);
+    }
+    
+    .lead {
+      font-size: 1.1rem;
+      line-height: 1.7;
     }
     
     ul {
@@ -131,34 +119,37 @@
       margin-bottom: 10px;
       padding-left: 25px;
       position: relative;
+      font-size: 0.9rem;
     }
     
     ul li::before {
-      content: "➤";
+      content: ">";
       position: absolute;
       left: 0;
       color: var(--hell-red);
+      font-weight: bold;
     }
     
     .controls-list code {
       background: rgba(255, 107, 30, 0.2);
       color: var(--neon-yellow);
-      padding: 3px 8px;
-      border-radius: 4px;
+      padding: 2px 6px;
+      border-radius: 3px;
       border: 1px solid var(--hell-orange);
       font-family: monospace;
+      font-size: 0.8rem;
     }
     
     .gallery img {
       margin-bottom: 20px;
-      border-radius: 8px;
+      border-radius: 5px;
       border: 2px solid var(--railway-gray);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transition: all 0.3s ease;
     }
     
     .gallery img:hover {
       transform: scale(1.02);
-      box-shadow: 0 0 20px rgba(255, 30, 30, 0.6);
+      box-shadow: 0 0 15px rgba(255, 30, 30, 0.6);
       border-color: var(--hell-red);
     }
     
@@ -167,11 +158,12 @@
       padding-left: 20px;
       font-style: italic;
       color: #ccc;
-      margin: 30px 0;
+      margin: 25px 0;
     }
     
     .blockquote-footer {
       color: var(--hell-orange);
+      font-size: 0.8rem;
     }
     
     footer {
@@ -179,14 +171,9 @@
       padding: 30px;
       margin-top: 60px;
       background: linear-gradient(to right, var(--blood-red), var(--railway-gray));
-      border-radius: 10px;
-      color: white;
-      border-top: 2px solid var(--hell-red);
-    }
-    
-    footer p {
-      margin-bottom: 0;
-      font-size: 0.9rem;
+      border-top: 3px solid var(--hell-red);
+      font-family: 'Press Start 2P', cursive;
+      font-size: 0.8rem;
     }
     
     .roles-list {
@@ -196,16 +183,28 @@
     }
     
     .role-card {
-      background: rgba(34, 34, 34, 0.7);
+      background: rgba(40, 40, 40, 0.9);
       padding: 15px;
-      border-radius: 8px;
+      border-radius: 5px;
       border-left: 3px solid var(--hell-red);
       transition: all 0.3s ease;
     }
     
+    .role-card h5 {
+      color: var(--neon-yellow);
+      font-family: 'Press Start 2P', cursive;
+      font-size: 0.9rem;
+    }
+    
+    .role-card p {
+      color: #ffffff;
+      font-size: 0.8rem;
+    }
+    
     .role-card:hover {
-      background: rgba(50, 50, 50, 0.7);
-      transform: translateY(-3px);
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(255, 30, 30, 0.4);
+      border-left-color: var(--neon-yellow);
     }
     
     .trailer-placeholder {
@@ -214,16 +213,19 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 10px;
+      border-radius: 5px;
       border: 2px dashed var(--hell-red);
       color: var(--hell-orange);
-      font-size: 1.2rem;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1rem;
     }
     
     .nav-tabs .nav-link {
       color: #ccc;
       border: none;
-      padding: 10px 20px;
+      padding: 10px 15px;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 0.7rem;
     }
     
     .nav-tabs .nav-link.active {
@@ -235,24 +237,15 @@
     .tab-content {
       padding: 20px;
       background: rgba(34, 34, 34, 0.7);
-      border-radius: 0 0 10px 10px;
+      border-radius: 0 0 5px 5px;
     }
     
-    @media (max-width: 768px) {
-      .hero {
-        padding: 40px 15px;
-      }
-      
-      .titulo-imagen {
-        max-width: 100%;
-      }
-      
-      .section {
-        padding: 20px;
-      }
+    .btn-outline-danger {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 0.7rem;
     }
     
-    /* Animated elements */
+    /* Efectos especiales */
     @keyframes flicker {
       0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
         opacity: 1;
@@ -266,54 +259,55 @@
       animation: flicker 3s infinite;
     }
     
-    /* Train track divider */
-    .track-divider {
-      height: 40px;
+    .pixel-border {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
       background: 
-        linear-gradient(90deg, 
-          transparent 0%, 
-          #333 10%, 
-          #333 15%, 
-          #fff 15.5%, 
-          #fff 16.5%, 
-          #333 17%, 
-          #333 22%, 
-          transparent 100%);
-      background-size: 40px 100%;
-      margin: 40px 0;
-      position: relative;
+        linear-gradient(to right, var(--hell-red) 0%, transparent 1px, transparent calc(100% - 1px), var(--hell-red) 100%),
+        linear-gradient(to bottom, var(--hell-red) 0%, transparent 1px, transparent calc(100% - 1px), var(--hell-red) 100%);
+      background-size: 20px 20px;
+      pointer-events: none;
+      z-index: 1000;
+      opacity: 0.3;
     }
     
-    .track-divider::before {
-      content: "";
-      position: absolute;
-      top: 18px;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: linear-gradient(90deg, 
-        transparent, 
-        var(--hell-red), 
-        var(--hell-orange), 
-        var(--hell-red), 
-        transparent);
+    @media (max-width: 768px) {
+      .game-title {
+        font-size: 2rem;
+      }
+      
+      .tagline {
+        font-size: 0.9rem;
+      }
+      
+      h2 {
+        font-size: 1.2rem;
+      }
+      
+      .section {
+        padding: 20px;
+      }
     }
   </style>
 </head>
 <body>
-
+  <div class="pixel-border"></div>
+  
+  <div class="studio-header flicker">LAST STOP STUDIOS</div>
+  
   <div class="container">
-    <div class="hero">
-      <img src="assets/titulo.png" alt="Railway to Hell" class="img-fluid titulo-imagen flicker">
-      <p class="lead">Railway to Hell is a Metroidvania action and exploration video game set in a hellish version of a railway system. The player controls Nadia, a girl from a gang trapped in this hell, seeking redemption and the chance to escape with her deceased sister. Through intense melee combat, distance combat, progressive skill upgrades and exploration of the train lines, you must challenge the demonic lords who control this hellish system.</p>
+    <div class="text-center">
+      <h1 class="game-title">RAILWAY TO HELL</h1>
+      <p class="tagline">"La mort no és l'última parada"</p>
     </div>
 
-    <div class="track-divider"></div>
-
     <div class="section">
-      <h2><i class="fas fa-film"></i> Trailer</h2>
+      <h2>TRAILER</h2>
       <div class="trailer-placeholder">
-        [Embed YouTube trailer here]
+        [EMBED YOUTUBE TRAILER HERE]
       </div>
       <blockquote class="blockquote mt-4">
         "Death is not the last stop"
@@ -322,8 +316,8 @@
     </div>
 
     <div class="section">
-      <h2><i class="fas fa-book"></i> Narrative</h2>
-      <p>
+      <h2>NARRATIVE</h2>
+      <p class="lead">
         Nadia finds herself in a hellish railway system where demonic lords control different lines. Guided by what she believes are her sister's memories, she must battle through the system, uncovering dark truths about her past and the nature of this underworld.
       </p>
       <p>
@@ -332,7 +326,7 @@
     </div>
 
     <div class="section">
-      <h2><i class="fas fa-bullseye"></i> Game Objective</h2>
+      <h2>GAME OBJECTIVE</h2>
       <ul>
         <li>Explore interconnected tunnels and stations filled with secrets</li>
         <li>Defeat demonic bosses to gain new mobility abilities</li>
@@ -343,10 +337,8 @@
       </ul>
     </div>
 
-    <div class="track-divider"></div>
-
     <div class="section">
-      <h2><i class="fas fa-palette"></i> Art Style & Inspirations</h2>
+      <h2>ART STYLE & INSPIRATIONS</h2>
       <p>Our pixel-art aesthetic combines gritty urban decay with supernatural elements, inspired by:</p>
       <ul>
         <li>Classic Metroidvania games with modern fluid animations</li>
@@ -358,14 +350,14 @@
     </div>
 
     <div class="section">
-      <h2><i class="fas fa-gamepad"></i> Controls</h2>
+      <h2>CONTROLS</h2>
       
       <ul class="nav nav-tabs" id="controlsTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="controller-tab" data-bs-toggle="tab" data-bs-target="#controller" type="button" role="tab">Controller</button>
+          <button class="nav-link active" id="controller-tab" data-bs-toggle="tab" data-bs-target="#controller" type="button" role="tab">CONTROLLER</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="keyboard-tab" data-bs-toggle="tab" data-bs-target="#keyboard" type="button" role="tab">Keyboard</button>
+          <button class="nav-link" id="keyboard-tab" data-bs-toggle="tab" data-bs-target="#keyboard" type="button" role="tab">KEYBOARD</button>
         </li>
       </ul>
       
@@ -373,7 +365,7 @@
         <div class="tab-pane fade show active" id="controller" role="tabpanel">
           <div class="row">
             <div class="col-md-6">
-              <h4>Movement</h4>
+              <h4>MOVEMENT</h4>
               <ul>
                 <li><code>Left Stick</code>: Move</li>
                 <li><code>X / A</code>: Jump</li>
@@ -381,7 +373,7 @@
               </ul>
             </div>
             <div class="col-md-6">
-              <h4>Combat</h4>
+              <h4>COMBAT</h4>
               <ul>
                 <li><code>Square / X</code>: Melee Attack</li>
                 <li><code>R2 / RT</code>: Use whip</li>
@@ -391,7 +383,7 @@
           </div>
           <div class="row mt-3">
             <div class="col-md-6">
-              <h4>Interaction</h4>
+              <h4>INTERACTION</h4>
               <ul>
                 <li><code>Circle / B</code>: Use Key (Doors/Interactions)</li>
                 <li><code>Circle / B</code>: Close dialogues</li>
@@ -399,7 +391,7 @@
               </ul>
             </div>
             <div class="col-md-6">
-              <h4>System</h4>
+              <h4>SYSTEM</h4>
               <ul>
                 <li><code>Triangle / Y</code>: Map</li>
                 <li><code>Options / Menu</code>: Pause</li>
@@ -411,7 +403,7 @@
         <div class="tab-pane fade" id="keyboard" role="tabpanel">
           <div class="row">
             <div class="col-md-6">
-              <h4>Movement</h4>
+              <h4>MOVEMENT</h4>
               <ul>
                 <li><code>A/D</code>: Move Left/Right</li>
                 <li><code>SPACE</code>: Jump</li>
@@ -419,7 +411,7 @@
               </ul>
             </div>
             <div class="col-md-6">
-              <h4>Combat</h4>
+              <h4>COMBAT</h4>
               <ul>
                 <li><code>J</code>: Melee Attack</li>
                 <li><code>K</code>: Use whip</li>
@@ -429,7 +421,7 @@
           </div>
           <div class="row mt-3">
             <div class="col-md-6">
-              <h4>Interaction</h4>
+              <h4>INTERACTION</h4>
               <ul>
                 <li><code>E</code>: Use Key (Doors/Interactions)</li>
                 <li><code>E</code>: Close dialogues</li>
@@ -437,7 +429,7 @@
               </ul>
             </div>
             <div class="col-md-6">
-              <h4>System</h4>
+              <h4>SYSTEM</h4>
               <ul>
                 <li><code>M</code>: Map</li>
                 <li><code>ESC</code>: Pause</li>
@@ -448,67 +440,59 @@
       </div>
     </div>
 
-    <div class="track-divider"></div>
-
     <div class="section">
-      <h2><i class="fas fa-users"></i> Development Team</h2>
+      <h2>DEVELOPMENT TEAM</h2>
       <div class="roles-list">
         <div class="role-card">
-          <h5>Sanchez Carraro Felipe</h5>
-          <p class="text-muted">Lead Programmer</p>
+          <h5>SANCHEZ CARRARO FELIPE</h5>
+          <p>Lead Programmer</p>
         </div>
         <div class="role-card">
-          <h5>Sanjose Aragon Pablo</h5>
-          <p class="text-muted">Game Designer</p>
+          <h5>SANJOSE ARAGON PABLO</h5>
+          <p>Game Designer</p>
         </div>
         <div class="role-card">
-          <h5>Sarrias Basurte Martina</h5>
-          <p class="text-muted">Art Director</p>
+          <h5>SARRIAS BASURTE MARTINA</h5>
+          <p>Art Director</p>
         </div>
         <div class="role-card">
-          <h5>Vida Bosch Javier</h5>
-          <p class="text-muted">Level Designer</p>
+          <h5>VIDA BOSCH JAVIER</h5>
+          <p>Level Designer</p>
         </div>
       </div>
     </div>
 
     <div class="section">
-      <h2><i class="fas fa-images"></i> Gallery</h2>
+      <h2>GALLERY</h2>
       <div class="row gallery">
         <div class="col-md-4">
-          <img src="assets/imagen1.jpg" class="img-fluid rounded shadow" alt="Gameplay Screenshot 1">
+          <img src="assets/imagen1.jpg" class="img-fluid rounded" alt="Gameplay Screenshot 1">
         </div>
         <div class="col-md-4">
-          <img src="assets/imagen2.jpg" class="img-fluid rounded shadow" alt="Gameplay Screenshot 2">
+          <img src="assets/imagen2.jpg" class="img-fluid rounded" alt="Gameplay Screenshot 2">
         </div>
         <div class="col-md-4">
-          <img src="assets/imagen3.jpg" class="img-fluid rounded shadow" alt="Gameplay Screenshot 3">
-        </div>
-        <div class="col-md-6 mt-4">
-          <img src="assets/imagen4.jpg" class="img-fluid rounded shadow" alt="Boss Design">
-        </div>
-        <div class="col-md-6 mt-4">
-          <img src="assets/imagen5.jpg" class="img-fluid rounded shadow" alt="Environment Concept">
+          <img src="assets/imagen3.jpg" class="img-fluid rounded" alt="Gameplay Screenshot 3">
         </div>
       </div>
     </div>
 
     <div class="section">
-      <h2><i class="fas fa-link"></i> Links</h2>
-      <div class="d-flex flex-wrap gap-3">
-        <a href="#" class="btn btn-outline-danger">Steam Page</a>
-        <a href="#" class="btn btn-outline-warning">Press Kit</a>
-        <a href="#" class="btn btn-outline-info">Developer Blog</a>
-        <a href="#" class="btn btn-outline-secondary">Support</a>
+      <h2>LINKS</h2>
+      <div class="d-flex flex-wrap gap-3 justify-content-center">
+        <a href="#" class="btn btn-outline-danger">STEAM PAGE</a>
+        <a href="#" class="btn btn-outline-danger">PRESS KIT</a>
+        <a href="#" class="btn btn-outline-danger">DEVELOPER BLOG</a>
       </div>
     </div>
-
-    <footer class="flicker">
-      <p>© 2025 Railway to Hell. All rights reserved. | "Death is not the last stop"</p>
-    </footer>
   </div>
 
+  <footer class="flicker">
+    <p>© 2025 RAILWAY TO HELL. ALL RIGHTS RESERVED.</p>
+    <p>"DEATH IS NOT THE LAST STOP"</p>
+    <p>LAST STOP STUDIOS - GRUP4</p>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
