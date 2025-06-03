@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -7,13 +7,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background: #f7f9fc;
+      background: #00ff00;
       padding-top: 60px;
     }
     .hero {
       text-align: center;
       padding: 60px 20px;
-      background: #6c63ff;
+      background: #ff0000;
       color: white;
       border-radius: 15px;
     }
