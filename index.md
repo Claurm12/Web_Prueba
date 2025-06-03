@@ -16,7 +16,7 @@
     .hero {
   text-align: center;
   padding: 60px 20px;
-  background: #2b0000; 
+   background:#f0f0f0;
   color: white;
   border-radius: 15px;
    }
