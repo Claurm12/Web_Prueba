@@ -97,23 +97,23 @@
     </div>
 
     <div class="section">
-      <h2>Controles de mando</h2>
+      <h2>Controller controls</h2>
       <div class="controls-list">
         <ul>
-          <li><code>Stick Izquierdo</code>: Moverse izquierda/derecha</li>
-          <li><code>X / A</code>: Saltar</li>
+          <li><code>Left Stick move</code>: left/right</li>
+          <li><code>X / A</code>: Jump</li>
           <li><code>R1 / RB</code>: Dash</li>
-          <li><code>Cuadrado / X</code>: Ataque cuerpo a cuerpo</li>
-          <li><code>R2 / RT</code>: Usar látigo</li>
-          <li><code>L2 / LT</code>: Lanzar bolas</li>
-          <li><code>Círculo / B</code>: Usar llave, cerrar diálogos, activar checkpoints</li>
-          <li><code>Triángulo / Y</code>: Mapa</li>
+          <li><code>Square / X</code>: Melee Atack</li>
+          <li><code>R2 / RT</code>: Use whip</li>
+          <li><code>L2 / LT</code>: Throw Balls</li>
+          <li><code>Circle / B</code>: Use Key (Doors and Interactions), close dialogues and use checkpoints</li>
+          <li><code>Triangle / Y</code>: Map</li>
         </ul>
       </div>
     </div>
 
     <div class="section">
-      <h2>Equipo de desarrollo</h2>
+      <h2>Roles</h2>
       <ul>
         <li>Sanchez Carraro Felipe</li>
         <li>Sanjose Aragon Pablo</li>
