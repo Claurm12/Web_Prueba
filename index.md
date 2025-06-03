@@ -12,15 +12,16 @@
       font-family: 'Segoe UI', sans-serif;
     }
 
+    
     .hero {
-      text-align: center;
-      padding: 60px 20px;
-      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/fondo.jpg');
-      background-size: cover;
-      background-position: center;
-      color: white;
-      border-radius: 15px;
-    }
+  text-align: center;
+  padding: 60px 20px;
+  background: #2b0000; 
+  color: white;
+  border-radius: 15px;
+   }
+
+    
 
     .section {
       margin-top: 60px;
