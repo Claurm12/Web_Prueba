@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background: #f4f4f4;
+      background: #1a0000;;
       padding-top: 60px;
       font-family: 'Segoe UI', sans-serif;
     }
