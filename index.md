@@ -132,6 +132,7 @@
     </div>
 
     <div class="section">
+<h2>4.Cosas del juego</h2>
       <h2>Galería de imágenes</h2>
       <div class="row gallery">
         <div class="col-md-4">
@@ -145,6 +146,8 @@
         </div>
       </div>
     </div>
+<h2>Creditos</h2>
+<h2>Links</h2>
 
     <footer>
       <p>© 2025 Railway to Hell. Todos los derechos reservados.</p>
