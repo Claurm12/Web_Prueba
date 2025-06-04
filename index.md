@@ -333,30 +333,38 @@
       <div class="row">
         <div class="col-md-3">
           <div class="role-card">
-            <h3 class="role-name">FELIPE</h3>
+            <h3 class="role-name">ANA ALCARAZ</h3>
             <p class="pixel-text">PROGRAMADOR PRINCIPAL</p>
           </div>
         </div>
         <div class="col-md-3">
           <div class="role-card">
-            <h3 class="role-name">PABLO</h3>
+            <h3 class="role-name">JAUME BENEJAM</h3>
             <p class="pixel-text">Diseñador de Juego</p>
           </div>
         </div>
         <div class="col-md-3">
           <div class="role-card">
-            <h3 class="role-name">MARTINA</h3>
+            <h3 class="role-name">NOA CABEZA</h3>
             <p class="pixel-text">Directora de Arte</p>
           </div>
         </div>
         <div class="col-md-3">
           <div class="role-card">
-            <h3 class="role-name">JAVIER</h3>
+            <h3 class="role-name">JÚLIA CORNEJO</h3>
             <p class="pixel-text">Diseñador de Niveles</p>
           </div>
         </div>
       </div>
+<div class="col-md-3">
+          <div class="role-card">
+            <h3 class="role-name">LAIA CANALETA</h3>
+            <p class="pixel-text">Directora de Arte</p>
+          </div>
+        </div>
+
     </div>
+
     
     <!-- Gallery -->
     <div class="pixel-section">
