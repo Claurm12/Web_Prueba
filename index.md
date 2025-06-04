@@ -327,106 +327,116 @@
           </ul>
     </div>
     
-    <!-- Team -->
-    <div class="pixel-section">
-      <h2 class="section-title">EQUIPO</h2>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">ANA ALCARAZ</h3>
-            <p class="pixel-text">PROGRAMADOR PRINCIPAL</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">JAUME BENEJAM</h3>
-            <p class="pixel-text">Diseñador de Juego</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">NOA CABEZA</h3>
-            <p class="pixel-text">Directora de Arte</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">LAIA CANALETA</h3>
-            <p class="pixel-text">Diseñador de Niveles</p>
-          </div>
-        </div>
+ <!-- Team -->
+<div class="pixel-section">
+  <h2 class="section-title">TEAM</h2>
+  
+  <!-- Primera fila -->
+  <div class="row">
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">ANA ALCARAZ</h3>
+        <p class="pixel-text">PROGRAMADOR PRINCIPAL</p>
       </div>
-<div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">JÚLIA CORNEJO</h3>
-            <p class="pixel-text">Directora de Arte</p>
-          </div>
-        </div>
-<div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">VÍCTOR GONZÁLEZ</h3>
-            <p class="pixel-text">Directora de Arte</p>
-          </div>
-        </div>
-<div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">ABRIL HERNÁDEZ</h3>
-            <p class="pixel-text">Directora de Arte</p>
-          </div>
-        </div>
-<div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">HAOSHENG LI</h3>
-            <p class="pixel-text">Directora de Arte</p>
-          </div>
-        </div>
-</div>
-<div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">SAÜC PELLEJERO</h3>
-            <p class="pixel-text">Directora de Arte</p>
-          </div>
-        </div>
-<div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">BEL PERANAU</h3>
-            <p class="pixel-text">Directora de Arte</p>
-          </div>
-        </div>
-<div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">CLAUDIA RUIZ</h3>
-            <p class="pixel-text">Directora de Arte</p>
-          </div>
-        </div>
-<div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">FELIPE SANCHEZ</h3>
-            <p class="pixel-text">Directora de Arte</p>
-          </div>
-        </div>
-</div>
-<div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">PABLO SANJOSE</h3>
-            <p class="pixel-text">Directora de Arte</p>
-          </div>
-        </div>
-<div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">MARTINA SARRIAS</h3>
-            <p class="pixel-text">Directora de Arte</p>
-          </div>
-        </div>
-<div class="col-md-3">
-          <div class="role-card">
-            <h3 class="role-name">JAVIER VIDA</h3>
-            <p class="pixel-text">Directora de Arte</p>
-          </div>
-        </div>
-
-
     </div>
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">JAUME BENEJAM</h3>
+        <p class="pixel-text">Diseñador de Juego</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">NOA CABEZA</h3>
+        <p class="pixel-text">Directora de Arte</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">LAIA CANALETA</h3>
+        <p class="pixel-text">Diseñador de Niveles</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Segunda fila -->
+  <div class="row">
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">JÚLIA CORNEJO</h3>
+        <p class="pixel-text">Directora de Arte</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">VÍCTOR GONZÁLEZ</h3>
+        <p class="pixel-text">Director de Arte</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">ABRIL HERNÁDEZ</h3>
+        <p class="pixel-text">Directora de Arte</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">HAOSHENG LI</h3>
+        <p class="pixel-text">Director de Arte</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Tercera fila -->
+  <div class="row">
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">SAÜC PELLEJERO</h3>
+        <p class="pixel-text">Director de Arte</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">BEL PERANAU</h3>
+        <p class="pixel-text">Directora de Arte</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">CLAUDIA RUIZ</h3>
+        <p class="pixel-text">Directora de Arte</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">FELIPE SANCHEZ</h3>
+        <p class="pixel-text">Director de Arte</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Cuarta fila -->
+  <div class="row">
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">PABLO SANJOSE</h3>
+        <p class="pixel-text">Director de Arte</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">MARTINA SARRIAS</h3>
+        <p class="pixel-text">Directora de Arte</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="role-card">
+        <h3 class="role-name">JAVIER VIDA</h3>
+        <p class="pixel-text">Director de Arte</p>
+      </div>
+    </div>
+  </div>
+</div>
 
     
     <!-- Gallery -->
