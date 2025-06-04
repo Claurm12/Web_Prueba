@@ -444,13 +444,13 @@
       <h2 class="section-title">GALERÍA</h2>
       <div class="row">
         <div class="col-md-4">
-          <img src="assets/gallery-1.png" class="img-fluid pixel-img" alt="Captura de pantalla 1">
+          <img src="assets/Concept2.png" class="img-fluid pixel-img" alt="Captura de pantalla 1">
         </div>
         <div class="col-md-4">
-          <img src="assets/gallery-2.png" class="img-fluid pixel-img" alt="Captura de pantalla 2">
+          <img src="assets/Concept3.png" class="img-fluid pixel-img" alt="Captura de pantalla 2">
         </div>
         <div class="col-md-4">
-          <img src="assets/gallery-3.png" class="img-fluid pixel-img" alt="Captura de pantalla 3">
+          <img src="assets/conceptFinal.png" class="img-fluid pixel-img" alt="Captura de pantalla 3">
         </div>
       </div>
     </div>
