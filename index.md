@@ -243,7 +243,7 @@
     <!-- Header -->
     <div class="pixel-header">
       <h1 class="game-title">RAILWAY TO HELL</h1>
-      <p class="game-tagline">"La mort no és l'última parada"</p>
+      <p class="game-tagline">"Death is not the last stop"</p>
     </div>
     
     <!-- Trailer Section -->
@@ -390,5 +390,3 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
