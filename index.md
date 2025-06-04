@@ -311,9 +311,9 @@
             <li><strong>X/A:</strong> Jump</li>
             <li><strong>R1/RB:</strong> Dash</li>
             <li><strong>Square/X:</strong>Melee Atack</li>
-            <li><strong>R2 / RT:</code> Use whip</li>
-            <li><strong>L2 / LT:</code> Throw Balls</li>
-           <li><strong>Circle / B:</code> Use Key (Doors and Interactions), close dialogues and use checkpoints</li>
+            <li><strong>R2 / RT:</strong> Use whip</li>
+            <li><strong>L2 / LT:</strong> Throw Balls</li>
+           <li><strong>Circle / B:</strong> Use Key (Doors and Interactions), close dialogues and use checkpoints</li>
            <li><strong>Triangle / Y_</code> Map</li>
           </ul>
         </div>
