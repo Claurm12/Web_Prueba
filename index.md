@@ -314,7 +314,7 @@
             <li><strong>R2 / RT:</strong> Use whip</li>
             <li><strong>L2 / LT:</strong> Throw Balls</li>
            <li><strong>Circle / B:</strong> Use Key (Doors and Interactions), close dialogues and use checkpoints</li>
-           <li><strong>Triangle / Y_</code> Map</li>
+           <li><strong>Triangle / Y_</strong> Map</li>
           </ul>
         </div>
         <div class="col-md-6">
