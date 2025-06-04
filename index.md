@@ -351,17 +351,80 @@
         </div>
         <div class="col-md-3">
           <div class="role-card">
-            <h3 class="role-name">JÚLIA CORNEJO</h3>
+            <h3 class="role-name">LAIA CANALETA</h3>
             <p class="pixel-text">Diseñador de Niveles</p>
           </div>
         </div>
       </div>
 <div class="col-md-3">
           <div class="role-card">
-            <h3 class="role-name">LAIA CANALETA</h3>
+            <h3 class="role-name">JÚLIA CORNEJO</h3>
             <p class="pixel-text">Directora de Arte</p>
           </div>
         </div>
+<div class="col-md-3">
+          <div class="role-card">
+            <h3 class="role-name">VÍCTOR GONZÁLEZ</h3>
+            <p class="pixel-text">Directora de Arte</p>
+          </div>
+        </div>
+<div class="col-md-3">
+          <div class="role-card">
+            <h3 class="role-name">ABRIL HERNÁDEZ</h3>
+            <p class="pixel-text">Directora de Arte</p>
+          </div>
+        </div>
+<div class="col-md-3">
+          <div class="role-card">
+            <h3 class="role-name">HAOSHENG LI</h3>
+            <p class="pixel-text">Directora de Arte</p>
+          </div>
+        </div>
+</div>
+<div class="col-md-3">
+          <div class="role-card">
+            <h3 class="role-name">SAÜC PELLEJERO</h3>
+            <p class="pixel-text">Directora de Arte</p>
+          </div>
+        </div>
+<div class="col-md-3">
+          <div class="role-card">
+            <h3 class="role-name">BEL PERANAU</h3>
+            <p class="pixel-text">Directora de Arte</p>
+          </div>
+        </div>
+<div class="col-md-3">
+          <div class="role-card">
+            <h3 class="role-name">CLAUDIA RUIZ</h3>
+            <p class="pixel-text">Directora de Arte</p>
+          </div>
+        </div>
+<div class="col-md-3">
+          <div class="role-card">
+            <h3 class="role-name">FELIPE SANCHEZ</h3>
+            <p class="pixel-text">Directora de Arte</p>
+          </div>
+        </div>
+</div>
+<div class="col-md-3">
+          <div class="role-card">
+            <h3 class="role-name">PABLO SANJOSE</h3>
+            <p class="pixel-text">Directora de Arte</p>
+          </div>
+        </div>
+<div class="col-md-3">
+          <div class="role-card">
+            <h3 class="role-name">MARTINA SARRIAS</h3>
+            <p class="pixel-text">Directora de Arte</p>
+          </div>
+        </div>
+<div class="col-md-3">
+          <div class="role-card">
+            <h3 class="role-name">JAVIER VIDA</h3>
+            <p class="pixel-text">Directora de Arte</p>
+          </div>
+        </div>
+
 
     </div>
 
