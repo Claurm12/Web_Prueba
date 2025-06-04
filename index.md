@@ -254,29 +254,42 @@
       </div>
       <p class="pixel-text text-center mt-3">"Death is not the last stop"</p>
     </div>
-    
+     <!-- DESCRIPTION -->
+    <div class="pixel-section">
+      <h2 class="section-title">DESCRIPTION</h2>
+      <p class="pixel-text"> Railway to Hell is a Metroidvania action and exploration video game set in a hellish version of a railway system. The player controls Nadia, a girl from a gang trapped in this hell, seeking redemption and the chance to escape with her deceased sister. Through intense melee combat, distance combat, progressive skill upgrades and exploration of the train lines, you must challenge the demonic lords who control this hellish system.
+</p>
+    </div>
+
     <!-- Narrative Section -->
     <div class="pixel-section">
-      <h2 class="section-title">NARRATIVA</h2>
-      <p class="pixel-text">Nadia se encuentra en un sistema ferroviario infernal donde señores demoníacos controlan diferentes líneas. Guiada por lo que cree que son los recuerdos de su hermana, debe luchar a través del sistema, descubriendo oscuras verdades sobre su pasado y la naturaleza de este inframundo.</p>
-      <p class="pixel-text">Las líneas de tren representan diferentes círculos del infierno, cada una con entornos y desafíos únicos. Desde el páramo industrial de la Línea 666 hasta las estaciones catedralicias del Expreso Carmesí, cada área cuenta parte de la trágica historia de Nadia.</p>
+      <h2 class="section-title">NARRATIVE</h2>
+      <p class="pixel-text"> Nadia finds herself in a hellish railway system where demonic lords control different lines. Guided by what she believes are her sister's memories, she must battle through the system, uncovering dark truths about her past and the nature of this underworld.</p>
     </div>
     
     <!-- Game Objective -->
     <div class="pixel-section">
-      <h2 class="section-title">OBJETIVO DEL JUEGO</h2>
+      <h2 class="section-title">GAME OBJECTIVES</h2>
       <ul class="pixel-list">
-        <li>Explora túneles y estaciones interconectadas llenas de secretos</li>
-        <li>Derrota a jefes demoníacos para ganar nuevas habilidades de movilidad</li>
-        <li>Resuelve puzles ambientales usando tu arsenal en crecimiento</li>
-        <li>Descubre la verdad sobre tu hermana y este mundo infernal</li>
-        <li>Mejora tus armas y habilidades para acceder a nuevas áreas</li>
+        <li>Explore interconnected tunnels and stations</li>
+        <li>Defeat demonic bosses to gain new abilities</li>
+        <li>Solve environmental puzzles</li>
+        <li>Uncover the truth about your sister and this hellish world</li>
       </ul>
     </div>
     
     <!-- Art Style -->
     <div class="pixel-section">
-      <h2 class="section-title">ESTILO ARTÍSTICO</h2>
+      <h2 class="section-title">ART STYLE</h2>
+<p> Our pixel-art aesthetic combines gritty urban decay with supernatural elements, inspired by:</p>
+ <ul class="pixel-list">
+        <li>Classic Metroidvania games</li>
+        <li>Underground graffiti culture</li>
+        <li>Gothic and demonic mythology</li>
+        <li>Barcelona's unique architecture (like Gaudí's mosaics)</li>
+      </ul>
+    </div>
+
       <div class="row">
         <div class="col-md-6">
           <img src="assets/art-style-1.png" class="img-fluid pixel-img" alt="Estilo de arte pixelado">
@@ -285,35 +298,31 @@
           <img src="assets/art-style-2.png" class="img-fluid pixel-img" alt="Personajes pixelados">
         </div>
       </div>
-      <p class="pixel-text">Nuestra estética pixel-art combina la decadencia urbana con elementos sobrenaturales, inspirada en:</p>
-      <ul class="pixel-list">
-        <li>Juegos Metroidvania clásicos con animaciones fluidas modernas</li>
-        <li>Cultura del graffiti subterráneo y exploración urbana</li>
-        <li>Mitología gótica y demoníaca reimaginada en un entorno ferroviario</li>
-        <li>Arquitectura única de Barcelona retorcida en paisajes infernales</li>
-      </ul>
-    </div>
     
     <!-- Controls -->
     <div class="pixel-section">
       <h2 class="section-title">CONTROLES</h2>
       <div class="row">
         <div class="col-md-6">
-          <h3 class="pixel-text" style="color: var(--hell-light);">MANDO</h3>
+          <h3 class="pixel-text" style="color: var(--hell-light);">CONTROLLER</h3>
           <ul class="pixel-list">
-            <li><strong>Stick Izquierdo:</strong> Movimiento</li>
-            <li><strong>X/A:</strong> Saltar</li>
+            <li><strong>Left Stick move:</strong> left/right</li>
+            <li><strong>X/A:</strong> Jump</li>
             <li><strong>R1/RB:</strong> Dash</li>
-            <li><strong>Cuadrado/X:</strong> Ataque cuerpo a cuerpo</li>
+            <li><strong>Square/X:</strong>Melee Atack</li>
+            <li><strong>R2 / RT:</code> Use whip</li>
+            <li><strong>L2 / LT:</code> Throw Balls</li>
+           <li><strong>Circle / B:</code> Use Key (Doors and Interactions), close dialogues and use checkpoints</li>
+           <li><strong>Triangle / Y_</code> Map</li>
           </ul>
         </div>
         <div class="col-md-6">
-          <h3 class="pixel-text" style="color: var(--hell-light);">TECLADO</h3>
+          <h3 class="pixel-text" style="color: var(--hell-light);">KEYBOARD</h3>
           <ul class="pixel-list">
-            <li><strong>A/D:</strong> Moverse izquierda/derecha</li>
-            <li><strong>ESPACIO:</strong> Saltar</li>
+            <li><strong>A/D:</strong> left/right</li>
+            <li><strong>ESPACIO:</strong> Jump</li>
             <li><strong>SHIFT:</strong> Dash</li>
-            <li><strong>J:</strong> Ataque cuerpo a cuerpo</li>
+            <li><strong>J:</strong> Melee Atack</li>
           </ul>
         </div>
       </div>
@@ -326,7 +335,7 @@
         <div class="col-md-3">
           <div class="role-card">
             <h3 class="role-name">FELIPE</h3>
-            <p class="pixel-text">Programador Principal</p>
+            <p class="pixel-text">Art</p>
           </div>
         </div>
         <div class="col-md-3">
@@ -368,8 +377,8 @@
     
     <!-- Links -->
     <div class="pixel-section text-center">
-      <h2 class="section-title">ENLACES</h2>
-      <a href="#" class="pixel-btn">PÁGINA DE STEAM</a>
+      <h2 class="section-title">Links</h2>
+      <a href="#" class="pixel-btn">GITHUB</a>
       <a href="#" class="pixel-btn">KIT DE PRENSA</a>
       <a href="#" class="pixel-btn">BLOG DEL DESARROLLO</a>
     </div>
