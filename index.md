@@ -444,7 +444,7 @@
       <h2 class="section-title">GALERÍA</h2>
       <div class="row">
         <div class="col-md-4">
-          <img src="assets/concept2.png" class="img-fluid pixel-img" alt="Concept2">
+          <img src="assets/concept.png" class="img-fluid pixel-img" alt="Concept2">
         </div>
         <div class="col-md-4">
           <img src="assets/Concept3.png" class="img-fluid pixel-img" alt="Captura de pantalla 2">
