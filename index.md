@@ -281,6 +281,15 @@
     <!-- Art Style -->
     <div class="pixel-section">
       <h2 class="section-title">ART STYLE</h2>
+ <div class="row">
+        <div class="col-md-6">
+          <img src="assets/art-style-1.png" class="img-fluid pixel-img" alt="Estilo de arte pixelado">
+        </div>
+        <div class="col-md-6">
+          <img src="assets/art-style-2.png" class="img-fluid pixel-img" alt="Personajes pixelados">
+        </div>
+      </div>
+    
 <p> Our pixel-art aesthetic combines gritty urban decay with supernatural elements, inspired by:</p>
  <ul class="pixel-list">
         <li>Classic Metroidvania games</li>
@@ -290,15 +299,7 @@
       </ul>
     </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <img src="assets/art-style-1.png" class="img-fluid pixel-img" alt="Estilo de arte pixelado">
-        </div>
-        <div class="col-md-6">
-          <img src="assets/art-style-2.png" class="img-fluid pixel-img" alt="Personajes pixelados">
-        </div>
-      </div>
-    
+     
     <!-- Controls -->
     <div class="pixel-section">
       <h2 class="section-title">CONTROLES</h2>
@@ -324,8 +325,6 @@
             <li><strong>SHIFT:</strong> Dash</li>
             <li><strong>J:</strong> Melee Atack</li>
           </ul>
-        </div>
-      </div>
     </div>
     
     <!-- Team -->
@@ -335,7 +334,7 @@
         <div class="col-md-3">
           <div class="role-card">
             <h3 class="role-name">FELIPE</h3>
-            <p class="pixel-text">Art</p>
+            <p class="pixel-text">PROGRAMADOR PRINCIPAL</p>
           </div>
         </div>
         <div class="col-md-3">
